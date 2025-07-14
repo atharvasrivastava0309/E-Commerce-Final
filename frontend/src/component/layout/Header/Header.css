@@ -1,0 +1,42 @@
+.speedDial {
+  position: fixed;
+  right: 3vmax;
+  top: 3vmax;
+}
+
+.speedDialIcon {
+  width: 56px;
+  height: 56px;
+  border-radius: 100%;
+}
+
+/* Overlay-navbar custom fix for equal spacing between nav links */
+.overlay-navbar .overlay-navbar-link {
+  margin: 0 !important;
+  padding: 1.5vmax 3vmax !important;
+  display: inline-block;
+}
+
+.overlay-navbar .overlay-navbar-links {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 2.5vmax !important;
+}
+
+/* Force equal spacing for overlay-navbar menu links */
+.overlay-navbar-overlay nav, .overlay-navbar nav {
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 3vmax !important;
+}
+
+.overlay-navbar-overlay nav a, .overlay-navbar nav a {
+  margin: 0 !important;
+  padding: 1.5vmax 3vmax !important;
+  display: inline-block !important;
+  font-size: 1.5vmax !important;
+}
